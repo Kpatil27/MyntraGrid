@@ -52,6 +52,18 @@ button {
     background-color: lightgray;
 
 }
+.wishlist {
+    display: none;
+    background-color: blue;
+    width:200px;
+}
+@media (hover:hover) {
+    .wishlist {
+        display: block;
+        background-color: blue;
+        width:200px;
+    }
+}
 
 .profile-container {
     flex:2;
